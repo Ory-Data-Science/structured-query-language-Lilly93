@@ -1,0 +1,2 @@
+SELECT DISTINCT year, month, day
+FROM surveys;

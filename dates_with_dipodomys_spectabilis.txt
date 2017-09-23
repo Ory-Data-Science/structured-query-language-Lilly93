@@ -1,0 +1,5 @@
+SELECT year, month, day
+FROM surveys
+WHERE species_id = 'DS'
+GROUP BY year, month, day
+ORDER BY year ASC, month ASC, day ASC;

@@ -1,0 +1,6 @@
+SELECT year, month, day, genus, species, plot_id, plot_type
+FROM surveys
+JOIN species
+ON surveys.species_id = species.species_id 
+JOIN plots 
+USING(plot_id)

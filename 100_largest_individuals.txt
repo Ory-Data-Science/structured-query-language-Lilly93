@@ -1,0 +1,4 @@
+SELECT species_id, year, weight
+FROM surveys
+ORDER BY weight DESC, hindfoot_length DESC, year DESC
+LIMIT 100;

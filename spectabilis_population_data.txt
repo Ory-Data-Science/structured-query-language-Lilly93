@@ -1,0 +1,3 @@
+SELECT sex, month, day, year
+FROM surveys
+WHERE species_id='DS';
